@@ -12,7 +12,7 @@ class goban
     protected:
     private:
         int m_taille;
-        int[m_taille][m_taille];
+        char[m_taille][m_taille] m_tableau;
 
 };
 

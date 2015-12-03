@@ -9,7 +9,7 @@ class pierre
         ~pierre();
         int Getm_liberte() { return m_liberte; }
         void Setm_liberte(int val) { m_liberte = val; }
-        string Getm_couleur() { return m_couleur; }
+        char Getm_couleur() { return m_couleur; }
         void Setm_couleur(string val) { m_couleur = val; }
         int[2] Getm_position() { return m_position; }
         void Setm_position(int val) { m_position = val; }
