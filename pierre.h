@@ -11,13 +11,15 @@ class pierre
         void Setm_liberte(int val) { m_liberte = val; }
         char Getm_couleur() { return m_couleur; }
         void Setm_couleur(string val) { m_couleur = val; }
-        int[2] Getm_position() { return m_position; }
+        int Getm_x() { return m_x; }
+        int Getm_y() { return m_y; }
         void Setm_position(int val) { m_position = val; }
     protected:
     private:
         int m_liberte;
         string m_couleur;
-        int[2] m_position;
+        int m_x;
+        int m_y;
 };
 
 #endif // PIERRE_H
